@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(awesome main.cpp
         tree/BinaryTree.cpp
-        tree/BinaryTree.h)
+        tree/BinaryTree.h
+        stack_queue/Myqueue.cpp
+        stack_queue/Myqueue.h)
 add_executable(Hello Hello.cpp)
 add_executable(BinaryTree tree/BinaryTree.cpp)
+add_executable(Myqueue stack_queue/Myqueue.cpp)

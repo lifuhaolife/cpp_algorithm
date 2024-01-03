@@ -1,9 +1,9 @@
 # ninja log v5
 1	475	7253970521108416	CMakeFiles/awesome.dir/main.cpp.obj	cf11d404e40a7e73
+9	1217	7259980013588207	CMakeFiles/awesome.dir/stack_queue/Myqueue.cpp.obj	dda55e2bbda265b6
 3	124	7253973340487347	awesome.exe	a92f6d583cb34768
 4	410	7253971264692076	CMakeFiles/awesome.dir/Hello.cpp.obj	18cabfdc4638497d
-361	493	7253974318998929	Hello.exe	613437ded72a58a9
-1	202	7259134892013980	build.ninja	f774a40fcd63fd7b
-0	361	7253974317738701	CMakeFiles/Hello.dir/Hello.cpp.obj	98b865b3bd3fc633
-5	456	7259153988688042	CMakeFiles/Hello.dir/Hello.cpp.obj	98b865b3bd3fc633
 457	626	7259153990323498	Hello.exe	613437ded72a58a9
+1	202	7259980406836343	build.ninja	f774a40fcd63fd7b
+5	456	7259153988688042	CMakeFiles/Hello.dir/Hello.cpp.obj	98b865b3bd3fc633
+11	934	7259989737611716	CMakeFiles/awesome.dir/stack_queue/Myqueue.cpp.obj	dda55e2bbda265b6

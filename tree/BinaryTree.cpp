@@ -8,7 +8,7 @@
 int main() {
     BinaryTree* binaryTree = new BinaryTree();
     std::vector<int> vec;
-    BinaryTree::TreeNode*  root = new BinaryTree::TreeNode(1);
+    BinaryTree::TreeNode root = *new BinaryTree::TreeNode(1);
     binaryTree->preorderTranversal(root, vec);
-
+    delete binaryTree;
 }

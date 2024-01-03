@@ -1,5 +1,6 @@
 D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/awesome.dir
 D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/Hello.dir
 D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/BinaryTree.dir
+D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/Myqueue.dir
 D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Users/LFH/CLionProjects/awesome/cmake-build-debug/CMakeFiles/rebuild_cache.dir

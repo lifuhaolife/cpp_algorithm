@@ -61,6 +61,12 @@ build CMakeFiles/awesome.dir/tree/BinaryTree.cpp.obj: CXX_COMPILER__awesome_unsc
   OBJECT_DIR = CMakeFiles\awesome.dir
   OBJECT_FILE_DIR = CMakeFiles\awesome.dir\tree
 
+build CMakeFiles/awesome.dir/stack_queue/Myqueue.cpp.obj: CXX_COMPILER__awesome_unscanned_Debug D$:/Users/LFH/CLionProjects/awesome/stack_queue/Myqueue.cpp || cmake_object_order_depends_target_awesome
+  DEP_FILE = CMakeFiles\awesome.dir\stack_queue\Myqueue.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\awesome.dir
+  OBJECT_FILE_DIR = CMakeFiles\awesome.dir\stack_queue
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target awesome
@@ -69,7 +75,7 @@ build CMakeFiles/awesome.dir/tree/BinaryTree.cpp.obj: CXX_COMPILER__awesome_unsc
 #############################################
 # Link the executable awesome.exe
 
-build awesome.exe: CXX_EXECUTABLE_LINKER__awesome_Debug CMakeFiles/awesome.dir/main.cpp.obj CMakeFiles/awesome.dir/tree/BinaryTree.cpp.obj
+build awesome.exe: CXX_EXECUTABLE_LINKER__awesome_Debug CMakeFiles/awesome.dir/main.cpp.obj CMakeFiles/awesome.dir/tree/BinaryTree.cpp.obj CMakeFiles/awesome.dir/stack_queue/Myqueue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\awesome.dir
@@ -145,6 +151,39 @@ build BinaryTree.exe: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryT
   TARGET_IMPLIB = libBinaryTree.dll.a
   TARGET_PDB = BinaryTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Myqueue
+
+
+#############################################
+# Order-only phony target for Myqueue
+
+build cmake_object_order_depends_target_Myqueue: phony || CMakeFiles/Myqueue.dir
+
+build CMakeFiles/Myqueue.dir/stack_queue/Myqueue.cpp.obj: CXX_COMPILER__Myqueue_unscanned_Debug D$:/Users/LFH/CLionProjects/awesome/stack_queue/Myqueue.cpp || cmake_object_order_depends_target_Myqueue
+  DEP_FILE = CMakeFiles\Myqueue.dir\stack_queue\Myqueue.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Myqueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\Myqueue.dir\stack_queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Myqueue
+
+
+#############################################
+# Link the executable Myqueue.exe
+
+build Myqueue.exe: CXX_EXECUTABLE_LINKER__Myqueue_Debug CMakeFiles/Myqueue.dir/stack_queue/Myqueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Myqueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Myqueue.exe
+  TARGET_IMPLIB = libMyqueue.dll.a
+  TARGET_PDB = Myqueue.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -175,6 +214,8 @@ build BinaryTree: phony BinaryTree.exe
 
 build Hello: phony Hello.exe
 
+build Myqueue: phony Myqueue.exe
+
 build awesome: phony awesome.exe
 
 # =============================================================================
@@ -185,7 +226,7 @@ build awesome: phony awesome.exe
 #############################################
 # Folder: D:/Users/LFH/CLionProjects/awesome/cmake-build-debug
 
-build all: phony awesome.exe Hello.exe BinaryTree.exe
+build all: phony awesome.exe Hello.exe BinaryTree.exe Myqueue.exe
 
 # =============================================================================
 # Built-in targets
